@@ -1,0 +1,362 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/university/semester7/CAD/midterm-trunk/trunk/trunk/sim
+vcolParity_P1
+!s10a 1672677328
+Z1 !s110 1672692247
+!i10b 1
+!s100 lc16iQMnHIe[9HZ_8<UC`3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IngO5RK?aTVIm0>[jG^hJF1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672677328
+8..\src\hdl\colParity_P1.v
+F..\src\hdl\colParity_P1.v
+!i122 61
+Z4 L0 1 39
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1672692247.000000
+Z7 !s107 ..\src\hdl\colParity_P2.v|..\src\hdl\colParity_P1.v|..\src\hdl\parityCalc.v|..\src\hdl\register25bit.v|..\src\hdl\decoder6to64.v|..\src\hdl\input_mod.v|..\src\hdl\mux64to1_1600_mod.v|..\src\hdl\mux64to1_1600.v|../src/hdl/datapathUnit.v|
+Z8 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/datapathUnit.v|
+!i113 1
+Z9 o+acc -source
+Z10 !s92 +acc -source +define+SIM
+Z11 tCvgOpt 0
+ncol@parity_@p1
+vcolParity_P2
+!s10a 1672668779
+R1
+!i10b 1
+!s100 >oYfZ2N4PaEg?C2zDcOOf3
+R2
+IhR27CN<YJlIZnTGJXI>1D1
+R3
+R0
+w1672668779
+8..\src\hdl\colParity_P2.v
+F..\src\hdl\colParity_P2.v
+!i122 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+ncol@parity_@p2
+vcolParityFunc
+!s10a 1672689986
+!s110 1672691787
+!i10b 1
+!s100 iO]LeM_6b0Cc0GUk;FB5Z0
+R2
+I]cjhdDD9zGgKOFG4fl?FU2
+R3
+R0
+w1672689986
+8../src/hdl/colParityFunc.v
+F../src/hdl/colParityFunc.v
+!i122 9
+L0 3 8
+R5
+r1
+!s85 0
+31
+!s108 1672691787.000000
+Z12 !s107 ..\src\hdl\counter6bit.v|..\src\hdl\controllerFSM.v|..\src\hdl\controlUnit.v|..\src\hdl\colParity_P2.v|..\src\hdl\colParity_P1.v|..\src\hdl\parityCalc.v|..\src\hdl\register25bit.v|..\src\hdl\decoder6to64.v|..\src\hdl\input_mod.v|..\src\hdl\mux64to1_1600_mod.v|..\src\hdl\mux64to1_1600.v|..\src\hdl\datapathUnit.v|../src/hdl/colParityFunc.v|
+Z13 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/colParityFunc.v|
+!i113 1
+R9
+R10
+R11
+ncol@parity@func
+vcolParityFuncTB
+R1
+!i10b 1
+!s100 HRhZN2PO7JV2K_lG4LGzQ0
+R2
+I:Y]C:d`;7Sk7ODz8i?XIb0
+R3
+R0
+w1672692216
+8./tb/colParityFuncTB.v
+F./tb/colParityFuncTB.v
+!i122 66
+L0 2 44
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./tb/colParityFuncTB.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/colParityFuncTB.v|
+!i113 1
+R9
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R11
+ncol@parity@func@t@b
+vcontrollerFSM
+R1
+!i10b 1
+!s100 4DSg3A:aDlFWVYKz@LWcc2
+R2
+IzTDKe1NC[C5dzznoA`8m21
+R3
+R0
+w1672326738
+8..\src\hdl\controllerFSM.v
+F..\src\hdl\controllerFSM.v
+!i122 62
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R9
+R10
+R11
+ncontroller@f@s@m
+vcontrolUnit
+R1
+!i10b 1
+!s100 3;8oT57ZJ=D_dK3dUC?[c2
+R2
+IQSNe1DQ2cSWnm7NAWXSmF1
+R3
+R0
+w1672326663
+8..\src\hdl\controlUnit.v
+F..\src\hdl\controlUnit.v
+!i122 62
+L0 3 5
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R9
+R10
+R11
+ncontrol@unit
+vcounter6bit
+!s10a 1672321438
+!s110 1672692246
+!i10b 1
+!s100 0zlHmJGi@09hP1UbF_Uad1
+R2
+I]o=F0=[9WKSRK_DGcd:8Y1
+R3
+R0
+w1672321438
+8..\src\hdl\counter6bit.v
+F..\src\hdl\counter6bit.v
+!i122 57
+L0 1 7
+R5
+r1
+!s85 0
+31
+!s108 1672692246.000000
+!s107 ..\src\hdl\counter6bit.v|..\src\hdl\controllerFSM.v|../src/hdl/controlUnit.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/controlUnit.v|
+!i113 1
+R9
+R10
+R11
+vdatapathUnit
+R1
+!i10b 1
+!s100 UY5:CCLX^L?V<;[E3f_n41
+R2
+IGn0II7hmB[AjPO6g:jlWH2
+R3
+R0
+w1672690031
+8..\src\hdl\datapathUnit.v
+F..\src\hdl\datapathUnit.v
+!i122 62
+L0 7 18
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R9
+R10
+R11
+ndatapath@unit
+vdecoder6to64
+!s10a 1672321339
+R1
+!i10b 1
+!s100 ]Xg@E?8`KFI@U0>a0e>4:1
+R2
+I_58`Q7Ti<DDS@ES8Fn5dT1
+R3
+R0
+w1672321339
+8..\src\hdl\decoder6to64.v
+F..\src\hdl\decoder6to64.v
+!i122 61
+Z14 L0 1 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+vinput_mod
+R1
+!i10b 1
+!s100 AJn^5lgeJ>ZX:5F==;JMi3
+R2
+I@>97nbWkaQC`I2OcBW]n62
+R3
+R0
+w1672689235
+8..\src\hdl\input_mod.v
+F..\src\hdl\input_mod.v
+!i122 64
+L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+Z15 !s107 ..\src\hdl\input_mod.v|../src/hdl/mux64to1_1600_mod.v|
+Z16 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/mux64to1_1600_mod.v|
+!i113 1
+R9
+R10
+R11
+vmux64to1_1600
+!s10a 1672320985
+R1
+!i10b 1
+!s100 _60k@FkYXgFJ[PX7iiU490
+R2
+I_@YmCViYcdkhkGj1n5`<A2
+R3
+R0
+w1672320985
+8..\src\hdl\mux64to1_1600.v
+F..\src\hdl\mux64to1_1600.v
+!i122 61
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
+vmux64to1_1600_2
+R1
+!i10b 1
+!s100 ^NY;K_kMbTDecb=]_OHok0
+R2
+IDP1ofSCO[oncbQ:[g4HBF2
+R3
+R0
+w1672689279
+8../src/hdl/mux64to1_1600_mod.v
+F../src/hdl/mux64to1_1600_mod.v
+!i122 64
+L0 2 6
+R5
+r1
+!s85 0
+31
+R6
+R15
+R16
+!i113 1
+R9
+R10
+R11
+vparityCalc
+R1
+!i10b 1
+!s100 @NRZ@S=bN6<@T=CZQzKCl1
+R2
+ICzB>4ogYHkOn0hZ4d>N<;1
+R3
+R0
+w1672689709
+8../src/hdl/parityCalc.v
+F../src/hdl/parityCalc.v
+!i122 65
+L0 4 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 ..\src\hdl\colParity_P2.v|..\src\hdl\colParity_P1.v|../src/hdl/parityCalc.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/parityCalc.v|
+!i113 1
+R9
+R10
+R11
+nparity@calc
+vregister25bit
+!s10a 1672321777
+R1
+!i10b 1
+!s100 k8mc0:i>TbC0AdBan2^:U1
+R2
+IL?E5eI`28:6ZW1?zN[>IE1
+R3
+R0
+w1672321777
+8..\src\hdl\register25bit.v
+F..\src\hdl\register25bit.v
+!i122 61
+L0 1 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+R11
