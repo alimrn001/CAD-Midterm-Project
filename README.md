@@ -1,5 +1,5 @@
 # CAD-Midterm-Project
-CAD Midterm Project Fall 1401
+Computer-Aided Design Midterm Project Fall 1401
 
 ## Part 1  
 This part is the design part   
